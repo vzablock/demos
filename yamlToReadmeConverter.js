@@ -45,7 +45,7 @@ const parseTags = (tags) => {
 
 const createReadme = (filePath, index) => {
     YAML.load(filePath, (result) => {
-        const readmePath = folderPaths[index] + '\\README.md';
+        const readmePath = folderPaths[index] + '/README.md';
         const content = `# Bitmovin Demo:\r\n${result.title}\r\n\r\n## Demo Description:\r\n${result.description}\r\n\r\n### Detailed Demo Description:\r\n${result.long_description}\r\n\r\n### Tags:\r\n${parseTags(result.tags)}`;
         fs.writeFile(readmePath, content, (error) => {
             if (error) throw error;
