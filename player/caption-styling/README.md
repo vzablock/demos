@@ -1,14 +1,15 @@
 # Bitmovin Demo:
-Fast Channel Switching
+CEA-608/708 captions and styling
 
 ## Demo Description:
-Switch between two channels without destroying the player and speeding up the process
+This demo shows the Bitmovin Player displaying a video with captions and offering all the controls necessary to be compliant with CEA-708
 
 ### Detailed Demo Description:
-This interactive video demo showcases the Bitmovin Player’s ability to switch between channels, quickly and seamlessly. Try this three channel demo.
+This demo shows the Bitmovin Player displaying a video with captions and offering all the controls necessary to be compliant with CEA-708.
 
 ### Tags:
 
-  - switch
-  - load
-  - channel
+  - captions
+  - cea-708
+  - basic
+  - cea styling

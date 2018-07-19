@@ -1,16 +1,14 @@
 # Bitmovin Demo:
-HLS fragmented MP4
+DRM stream test
 
 ## Demo Description:
-The Bitmovin Player fully supports fragmented MP4 in HLS
+Test your protected DRM stream with the Bitmovin Player
 
 ### Detailed Demo Description:
-This demo showcases HLS content using fragmented MP4 (fMP4) being played by the Bitmovin Player, bringing you the advantage of reducing storage cost.
+Test your protected DRM stream live with the Bitmovin Player and get immediate insights into which DRM system and codecs are supported by your browser.
 
 ### Tags:
 
-  - fMP4
-  - fragmented
-  - MP4
-  - HLS
-  - basic
+  - drm
+  - widevine
+  - playready

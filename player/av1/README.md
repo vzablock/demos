@@ -1,15 +1,19 @@
 # Bitmovin Demo:
-CEA-608/708 captions and styling
+AV1
 
 ## Demo Description:
-This demo shows the Bitmovin Player displaying a video with captions and offering all the controls necessary to be compliant with CEA-708
+AV1 is a next generation codec that can reduce bandwidth and CDN costs by a factor of 10
 
 ### Detailed Demo Description:
-This demo shows the Bitmovin Player displaying a video with captions and offering all the controls necessary to be compliant with CEA-708.
+Bitmovin is spearheading the drive towards a commercially viable AV1 solution. See our online demonstration of AV1 encoding and playback.
 
 ### Tags:
 
-  - captions
-  - cea-708
-  - basic
-  - cea styling
+  - experimental
+  - AV1
+  - Chrome
+  - Firefox
+  - Google
+  - Mozilla
+  - Nightly
+  - Canary

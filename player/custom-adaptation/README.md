@@ -1,14 +1,15 @@
 # Bitmovin Demo:
-DRM stream test
+Custom Adaptation
 
 ## Demo Description:
-Test your protected DRM stream with the Bitmovin Player
+Showcasing the player's ability to switch between bitrates to avoid re-buffering, minimize startup time, and provide the best possible quality
 
 ### Detailed Demo Description:
-Test your protected DRM stream live with the Bitmovin Player and get immediate insights into which DRM system and codecs are supported by your browser.
+undefined
 
 ### Tags:
 
-  - drm
-  - widevine
-  - playready
+  - adaptation logic
+  - adaption
+  - bitrate
+  - quality-switching

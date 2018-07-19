@@ -1,14 +1,35 @@
 # Bitmovin Demo:
-Picture in Picture
+Native Player SDKs
 
 ## Demo Description:
-Showcases the ability to keep a minimized player in the corner of your screen when you scroll too far
+Deliver High Quality Video Everywhere with Bitmovin's Native Player SDKs
 
 ### Detailed Demo Description:
-Picture in picture is a great feature for screens with more content than just the video, or screens with multiple videos. See it in action here.
+Bitmovin’s Native SDKs give you everything you need to get your video playing anywhere, any device, any platform.
 
 ### Tags:
 
-  - picture
-  - mini
-  - advanced
+  - native
+  - sdks
+  - sdk
+  - os
+  - apple
+  - google
+  - samsung
+  - lg
+  - amazon
+  - fire
+  - roku
+  - playstation
+  - andriod
+  - ios
+  - mac
+  - macos
+  - smart
+  - tv
+  - opera
+  - chrome
+  - firefox
+  - edge
+  - sfari
+  - internet explorer

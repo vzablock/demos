@@ -1,17 +1,15 @@
 # Bitmovin Demo:
-DASH, HLS or PROGRESSIVE stream test
+Server Side Ad Insertion
 
 ## Demo Description:
-Test your own stream with the Bitmovin Player
+A demo of how you can use server side ad insertion with the player
 
 ### Detailed Demo Description:
-Simply paste the link to your video file to test your own stream with the Bitmovin Player. Playback in any browser and any device, fast start up, no buffering.
+Ad Blocking software has had a major impact on ad revenue across the entire video industry. Server-Side Ad Insertion offers a way to bypass Ad Blockers.
 
 ### Tags:
 
-  - dash
-  - hls
-  - stream
-  - basic
-  - test
-  - player
+  - advertissement
+  - server side
+  - ssai
+  - ads

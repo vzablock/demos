@@ -1,35 +1,16 @@
 # Bitmovin Demo:
-Native Player SDKs
+Multiple Audio Tracks & Multiple Subtitles
 
 ## Demo Description:
-Deliver High Quality Video Everywhere with Bitmovin's Native Player SDKs
+Display multi language and audio options available with the Bitmovin player
 
 ### Detailed Demo Description:
-Bitmovin’s Native SDKs give you everything you need to get your video playing anywhere, any device, any platform.
+Bitmovin supports multiple audio/language tracks, without the need of duplication or repackaging the video, either for live or on-demand content. Try the demo.
 
 ### Tags:
 
-  - native
-  - sdks
-  - sdk
-  - os
-  - apple
-  - google
-  - samsung
-  - lg
-  - amazon
-  - fire
-  - roku
-  - playstation
-  - andriod
-  - ios
-  - mac
-  - macos
-  - smart
-  - tv
-  - opera
-  - chrome
-  - firefox
-  - edge
-  - sfari
-  - internet explorer
+  - multi
+  - audio
+  - language
+  - basic
+  - subtitle

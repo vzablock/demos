@@ -1,13 +1,16 @@
 # Bitmovin Demo:
-Modular Player
+HLS fragmented MP4
 
 ## Demo Description:
-Modular approach improves Bitmovin Player speed
+The Bitmovin Player fully supports fragmented MP4 in HLS
 
 ### Detailed Demo Description:
-The Bitmovin Player is a modular player, so you dramatically can reduce the file size and speed up your pages by just using what you need.
+This demo showcases HLS content using fragmented MP4 (fMP4) being played by the Bitmovin Player, bringing you the advantage of reducing storage cost.
 
 ### Tags:
 
-  - modular
-  - reduce size
+  - fMP4
+  - fragmented
+  - MP4
+  - HLS
+  - basic

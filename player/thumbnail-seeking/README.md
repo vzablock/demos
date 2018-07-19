@@ -1,13 +1,15 @@
 # Bitmovin Demo:
-Variable Playback Speed
+Thumbnail seeking
 
 ## Demo Description:
-Change the playback speed of content
+Display thumbnails over the seek bar to show a preview of the video at seeked time
 
 ### Detailed Demo Description:
-Bitmovin Player gives you the option to control the playback speed. This can be useful for many applications. Try the demo.
+Display thumbnails over the seek bar to show a preview of the video as the timeline is moved. This Bitmovin Player demonstration includes a working thumbnail demo.
 
 ### Tags:
 
-  - playback speed
-  - dynamic
+  - thumbnail
+  - seek
+  - preview
+  - basic

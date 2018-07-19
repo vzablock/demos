@@ -1,15 +1,14 @@
 # Bitmovin Demo:
-Chromeless Player
+Chromecast
 
 ## Demo Description:
-This demo shows how the player can work without an UI
+Cast video directly to your television screen using Chromecast and the Bitmovin Player
 
 ### Detailed Demo Description:
-This demo showcases how the Bitmovin Player can be controlled completely via the API. The code example gives you the configuration settings required.
+The Chromecast Player allows you to cast directly from your device to your television screen using the Chromecast browser plugin and a Chromecast enabled display device.
 
 ### Tags:
 
-  - UI
-  - chromeless
-  - headless
-  - basic
+  - chromecast
+  - television
+  - cast

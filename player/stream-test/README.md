@@ -1,15 +1,17 @@
 # Bitmovin Demo:
-Thumbnail seeking
+DASH, HLS or PROGRESSIVE stream test
 
 ## Demo Description:
-Display thumbnails over the seek bar to show a preview of the video at seeked time
+Test your own stream with the Bitmovin Player
 
 ### Detailed Demo Description:
-Display thumbnails over the seek bar to show a preview of the video as the timeline is moved. This Bitmovin Player demonstration includes a working thumbnail demo.
+Simply paste the link to your video file to test your own stream with the Bitmovin Player. Playback in any browser and any device, fast start up, no buffering.
 
 ### Tags:
 
-  - thumbnail
-  - seek
-  - preview
+  - dash
+  - hls
+  - stream
   - basic
+  - test
+  - player

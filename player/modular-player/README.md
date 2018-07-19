@@ -1,16 +1,13 @@
 # Bitmovin Demo:
-Multiple Audio Tracks & Multiple Subtitles
+Modular Player
 
 ## Demo Description:
-Display multi language and audio options available with the Bitmovin player
+Modular approach improves Bitmovin Player speed
 
 ### Detailed Demo Description:
-Bitmovin supports multiple audio/language tracks, without the need of duplication or repackaging the video, either for live or on-demand content. Try the demo.
+The Bitmovin Player is a modular player, so you dramatically can reduce the file size and speed up your pages by just using what you need.
 
 ### Tags:
 
-  - multi
-  - audio
-  - language
-  - basic
-  - subtitle
+  - modular
+  - reduce size

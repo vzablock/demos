@@ -1,15 +1,15 @@
 # Bitmovin Demo:
-Custom Adaptation
+Chromeless Player
 
 ## Demo Description:
-Showcasing the player's ability to switch between bitrates to avoid re-buffering, minimize startup time, and provide the best possible quality
+This demo shows how the player can work without an UI
 
 ### Detailed Demo Description:
-undefined
+This demo showcases how the Bitmovin Player can be controlled completely via the API. The code example gives you the configuration settings required.
 
 ### Tags:
 
-  - adaptation logic
-  - adaption
-  - bitrate
-  - quality-switching
+  - UI
+  - chromeless
+  - headless
+  - basic

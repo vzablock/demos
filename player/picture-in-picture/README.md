@@ -1,14 +1,14 @@
 # Bitmovin Demo:
-UI Styling
+Picture in Picture
 
 ## Demo Description:
-Learn how you can entirely controls the styling of the player UI
+Showcases the ability to keep a minimized player in the corner of your screen when you scroll too far
 
 ### Detailed Demo Description:
-A unified UI config ensures that your player will look the same, regardless of which device or platform it is rendered on. Try the interactive demo.
+Picture in picture is a great feature for screens with more content than just the video, or screens with multiple videos. See it in action here.
 
 ### Tags:
 
-  - styling
-  - css
-  - UI
+  - picture
+  - mini
+  - advanced

@@ -5,30 +5,45 @@ const YAML = require('yamljs');
 let folderPaths = [];
 let filePaths = [];
 
-const dirs = (p) => {
-    fs.readdirSync(p).map(f => {
-        if (fs.statSync(path.join(p, f)).isDirectory() && f !== '.git' && f !== 'node_modules') {
-            fs.readdirSync(p + f).map(f2 => {
-                if (fs.statSync(path.join(p, f, f2)).isDirectory()) {
-                    const folderPath = path.join(p, f, f2);
-                    folderPaths.push(folderPath);
-                    fs.readdirSync(p + f + '/' + f2).map(f3 => {
-                        if (f3 === 'info.yaml') {
-                            console.log(p, f, f2, f3);
-                            const filePath = path.join(p, f, f2, f3);
-                            filePaths.push(filePath);
-                        }
-                    })
-                }
-            })
+const getDirectories = (filePath = './') => {
+    fs.readdirSync(filePath).map(folder => {
+        const folderPath = path.join(filePath, folder)
+        if (fs.statSync(folderPath).isDirectory() && folder !== '.git' && folder !== 'node_modules') {
+            folderWalk(folderPath);
         }
     })
 }
 
-console.log(dirs('./'));
+const folderWalk = (folderPath) => {
+    fs.readdirSync(folderPath).map(subfolder => {
+        if (subfolder !== '.DS_Store') {
+            const addFolderPath = path.join(folderPath, subfolder);
+            addFileAndFolderPaths(addFolderPath);
+        }
+    })
+}
 
-console.log(folderPaths);
-console.log(filePaths);
+const addFileAndFolderPaths = (folderPath) => {
+    if (fs.statSync(folderPath).isDirectory() && fs.existsSync(path.join(folderPath, 'info.yaml'))) {
+        const addFilePath = path.join(folderPath, 'info.yaml');
+        folderPaths.push(folderPath);
+        filePaths.push(addFilePath);
+    }
+    else if (fs.statSync(folderPath).isDirectory()) {
+        folderWalk(folderPath);
+    }
+    else {
+        throw new Error(`Yaml file does not exist in folder: ${showPath(folderPath, '/')}`);
+    }
+}
+
+const showPath = (stringPath, seperator) => {
+    let array = stringPath.split('/');
+    let start = 0;
+    let end = array.length - 2;
+    end++;
+    return array.slice(start,end).join(seperator);
+};
 
 const parseTags = (tags) => {
     let parsedTags;
@@ -49,9 +64,16 @@ const createReadme = (filePath, index) => {
         const content = `# Bitmovin Demo:\r\n${result.title}\r\n\r\n## Demo Description:\r\n${result.description}\r\n\r\n### Detailed Demo Description:\r\n${result.long_description}\r\n\r\n### Tags:\r\n${parseTags(result.tags)}`;
         fs.writeFile(readmePath, content, (error) => {
             if (error) throw error;
-            console.log('Saved!');
         })
     })
 }
 
+const checkAndCreateReadmes = async () => {
+
+await getDirectories();
+
+console.log('Generated all readmes!');
 filePaths.forEach((filePath, index) => createReadme(filePath, index));
+}
+
+checkAndCreateReadmes();

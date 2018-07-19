@@ -1,14 +1,13 @@
 # Bitmovin Demo:
-VR & 360°
+Variable Playback Speed
 
 ## Demo Description:
-This demo shows the Bitmovin Player displaying a 360° video with VR
+Change the playback speed of content
 
 ### Detailed Demo Description:
-The Bitmovin Player was the first player on the market to achieve complete cross browser compatibility, and is still leading the way in features and performance.
+Bitmovin Player gives you the option to control the playback speed. This can be useful for many applications. Try the demo.
 
 ### Tags:
 
-  - VR
-  - 360
-  - 3D
+  - playback speed
+  - dynamic

@@ -1,14 +1,14 @@
 # Bitmovin Demo:
-Chromecast
+Fast Channel Switching
 
 ## Demo Description:
-Cast video directly to your television screen using Chromecast and the Bitmovin Player
+Switch between two channels without destroying the player and speeding up the process
 
 ### Detailed Demo Description:
-The Chromecast Player allows you to cast directly from your device to your television screen using the Chromecast browser plugin and a Chromecast enabled display device.
+This interactive video demo showcases the Bitmovin Player’s ability to switch between channels, quickly and seamlessly. Try this three channel demo.
 
 ### Tags:
 
-  - chromecast
-  - television
-  - cast
+  - switch
+  - load
+  - channel
